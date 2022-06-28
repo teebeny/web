@@ -1,18 +1,15 @@
 @media (min-width: 1024px) {
-    .lgmax {
-        width: 230px;
-    }
-
+  .lgmax {
+    width: 230px;
+  }
 }
 
 @media (min-width: 768px) {
+  .boxdivtop {
+    padding-right: 20%;
+  }
 
-    .boxdivtop {
-        padding-right: 20%;
-    }
-    
-    .boxdivbottom {
-        padding-left: 20%;
-    }
-    
+  .boxdivbottom {
+    padding-left: 20%;
+  }
 }
