@@ -12,4 +12,55 @@
   .boxdivbottom {
     padding-left: 20%;
   }
+
+  .slideright {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+
+  .slideleft {
+    right: 100%;
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .slideright {
+    top: 100%;
+    transform: translateY(-100%);
+  }
+
+  .slideleft {
+    bottom: 100%;
+    transform: translateY(100%);
+  }
+}
+
+.containment {
+  max-width: 960px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.containment button {
+  align-self: center;
+  cursor: pointer;
+}
+
+.sign-in-form,
+.sign-up-block {
+  display: none;
+}
+
+.slideright .sign-in-form,
+.slideleft .sign-up-block {
+  display: flex;
+}
+
+.slideright .sign-up-form,
+.slideleft .sign-in-block {
+  display: none;
 }
