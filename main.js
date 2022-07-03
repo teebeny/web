@@ -1,3 +1,11 @@
+const menuDiv = document.querySelector(".menuDiv");
+menuDiv.addEventListener("click", function () {
+  menuDiv.classList.add("dropdown-open");
+  setTimeout(function () {
+    menuDiv.classList.remove("dropdown-open");
+  }, 100);
+});
+
 const asideSection = document.querySelector("aside");
 const mainSection = document.querySelector("main");
 const formDiv = document.querySelector(".containment");
