@@ -3,9 +3,9 @@ menuDiv.addEventListener("click", function () {
   menuDiv.classList.add("dropdown-open");
 });
 
-document.addEventListener("click", function () {
-  menuDiv.classList.remove("dropdown-open");
-});
+// document.addEventListener("click", function () {
+//   menuDiv.classList.remove("dropdown-open");
+// });
 
 const asideSection = document.querySelector("aside");
 const mainSection = document.querySelector("main");
