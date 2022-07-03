@@ -5,6 +5,10 @@ menuButton.addEventListener("click", function () {
   mobileMenu.classList.add("dropdown-open");
 });
 
+document.querySelector("body").addEventListener("click", function () {
+  mobileMenu.classList.remove("dropdown-open");
+});
+
 const asideSection = document.querySelector("aside");
 const mainSection = document.querySelector("main");
 const formDiv = document.querySelector(".containment");
