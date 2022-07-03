@@ -1,11 +1,9 @@
-const menuDiv = document.querySelector(".menuDiv");
-menuDiv.addEventListener("click", function () {
-  menuDiv.classList.add("dropdown-open");
-});
+const mobileMenu = document.querySelector(".mobilemenu");
+const menuButton = document.querySelector(".menubutton");
 
-// document.addEventListener("click", function () {
-//   menuDiv.classList.remove("dropdown-open");
-// });
+menuButton.addEventListener("click", function () {
+  mobileMenu.classList.add("dropdown-open");
+});
 
 const asideSection = document.querySelector("aside");
 const mainSection = document.querySelector("main");
