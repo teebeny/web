@@ -1,7 +1,7 @@
-const menuDiv = document.querySelector(".menuDiv");
-menuDiv.addEventListener("click", function () {
-  menuDiv.classList.add("dropdown-open");
-});
+// const menuDiv = document.querySelector(".menuDiv");
+// menuDiv.addEventListener("click", function () {
+//   menuDiv.classList.add("dropdown-open");
+// });
 
 // document.addEventListener("click", function () {
 //   menuDiv.classList.remove("dropdown-open");
