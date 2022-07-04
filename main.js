@@ -1,13 +1,9 @@
-const mobileMenu = document.querySelector(".mobilemenu");
-const menuButton = document.querySelector(".menubutton");
+// const mobileMenu = document.querySelector(".mobilemenu");
+// const menuButton = document.querySelector(".menubutton");
 
-menuButton.addEventListener("click", function () {
-  mobileMenu.classList.add("dropdown-open");
-});
-
-document.querySelector("body").addEventListener("click", function () {
-  mobileMenu.classList.remove("dropdown-open");
-});
+// menuButton.addEventListener("click", function () {
+//   mobileMenu.classList.toggle("dropdown-open");
+// });
 
 const asideSection = document.querySelector("aside");
 const mainSection = document.querySelector("main");
